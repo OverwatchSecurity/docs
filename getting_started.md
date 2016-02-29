@@ -95,6 +95,8 @@ The security center is a high-level overview of all your devices, and it's the r
 
 On it you'll see an aggregate view of all alerts, threats, connection and overal threat level of all the devices registered under your account.
 
+![security center screenshot](./img/security-center.png)
+
 ### The Device list
 
 You can see a list of all devices registered under your account along with a summary of their current status  in our [devices page](https://app.overwatchsec.com/devices).
@@ -102,6 +104,8 @@ You can see a list of all devices registered under your account along with a sum
 ### The Device View
 
 The device view contains an overvirew of your device activity, on it you'll see a summary of [alerts](#alerts), [threats](#threats), and [currently open connections](#connections), as well as have access to perform security [actions](#actions) on your device.
+
+![device view screenshot](./img/device-view.png)
 
 #### Actions
 
