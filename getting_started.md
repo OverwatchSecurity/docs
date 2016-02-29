@@ -138,6 +138,8 @@ Threats are triggered based both on the security policies for the device and on 
 
 In some cases a high number of perceived threats might have been detected in one of your devices, you might want to head over to the Threats page from the left menu in order to see a complete list.
 
+![Active Threats](./img/active-threats.png)
+
 ### Connections
 
 The device overview includes a list of currently open connections detected in your device, along with details such as IP, ports used, protocol type of the connection along with geolocalization data when available, keep in mind that this list will include the secure connection to the Overwatch servers.
