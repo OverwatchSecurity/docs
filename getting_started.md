@@ -130,6 +130,8 @@ The security policies page for your device is accessible through the left-hand n
 
 Threats are heavily influenced by the policies you configure for your device, we recommend going to the policy page of every new device and set up sensible policies depending on said device's intended regular usage.
 
+![Creating a security policy](./img/policy-creation.gif)
+
 ### Threats
 
 Threats signify an irregular occourence in your device; there are different types of threats depending on the specific irregular behavior, but in general, treat them with care and analyze them to determine if they are within your accepted use of the device or if they might be caused by malicious access from a third party.
