@@ -73,10 +73,11 @@ $ sudo overwatchd --generate-keys --override
 
 The Overwatch agent is installed as a service on your device, as such, you'll be able to issue standard service commands to control it's behavior.
 
+##### On Upstart systems.
 ```bash
-$ sudo service start overwatchd
-$ sudo service restart overwatchd
-$ sudo service stop overwatchd
+$ sudo service overwatchd start
+$ sudo service overwatchd restart
+$ sudo service overwatchd stop
 ```
 
 #### Supported Devices
