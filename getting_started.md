@@ -7,13 +7,13 @@ Overwatch is a security platform aimed at end users, it's purpose is to help kee
 
 ## Overwatch Devices
 
-Overwatch uses an installable agent to keep tabs on your devices, analyzing and logging it's regular behavior and enforcing the security rules that you configure on our web application. Devices refer to any platform on which our client agent can be installed, as such they are the main entity of focus in our web interface.
+Overwatch uses an installable client agent to monitor your devices, analyzing and logging it's regular behavior and enforcing the security rules that you configure on our web application. The term `Device` refers to any platform or physical hardware on which our client agent can be installed.
 
 ## The Overwatch Agent
 
-Our agent runs as a service on your device, it's purpose it's two-fold: it enforces any [Security Policy rules](#security-policies) that you set up, and it sends regular status updates to the Overwatch servers for analysis.
+Our agent runs as a service on your device, it's purpose is two-fold: it enforces any [Security Policy rules](#security-policies) that you've defined in the web application, and it sends regular status updates to the Overwatch servers for analysis.
 
-The stats sent out by the agent include plain keepalives, inbound and outbound data traffic, open connections and general details such as its IP. The privacy of our user's data is a main concern at Overwatch: communications between the agent and the Overwach server are encrypted, and while we do analyze the behaviour of the device - such as the amounts of traffic exchanged between the device and the network - the actual data is never sent down the wire. If you have any concerns about privacy issues, please [get in touch](get-in-touch) and we'll be happy to discuss any doubts.
+The stats sent out by the agent include plain keepalives, inbound and outbound data traffic, open connections and general details such as the device's IP. The privacy of our user's data is very important to us, as such all communication between the agent and the Overwach server is encrypted, and while we do analyze the behaviour of the device - such as the amount of traffic exchanged between the device and the network, the actual data is never sent down the wire. If you have any concerns about privacy, please [get in touch](get-in-touch) and we'll be happy to discuss our security measures in more detail.
 
 ### Adding a Device
 
@@ -63,7 +63,7 @@ $ overwatchd --get-token
 
 ##### Regenerating identity file
 
-At any point you might want to recreate the ssh identity keys, if you do you will need to register the device again, as it will appear to Overwatch as a completely new and unrelated device.
+You can recreate the ssh identity keys at any point, if you do you will need to register the device again, as it will appear to Overwatch as a completely new and unrelated device.
 
 ```bash
 $ sudo overwatchd --generate-keys --override
@@ -82,11 +82,11 @@ $ sudo service overwatchd stop
 
 #### Supported Devices
 
-Overwatch targets IoT platforms so this list will hopefully expand in the near future, our bootstrap script currently supports:
+Overwatch bootstrap script currently supports:
 
 * upstart-based Ubuntu Linux (by default, Ubuntu 14.10 and older)
 
-If you'd like to run Overwatch in a platform that is not listed here [let us know](get-in-touch) and we'll try to add it to our bootstrap process.
+We have plans to support additional IoT focused platofrms and hardware and in the near future. In the meantime, if you'd like to run Overwatch in a platform that is not listed here [let us know](get-in-touch) and we'll look into adding it to our bootstrap process.
 
 ## The Overwatch Web Interface
 
@@ -100,7 +100,7 @@ On it you'll see an aggregate view of all alerts, threats, connections and overa
 
 ### The Device List
 
-You can see a list of all devices registered under your account along with a summary of their current status in our [devices page](https://app.overwatchsec.com/devices).
+You can see a list of all devices registered under your account along with a summary of their current status in your [devices page](https://app.overwatchsec.com/devices).
 
 ### The Device View
 
