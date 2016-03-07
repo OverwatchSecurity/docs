@@ -13,7 +13,7 @@ Overwatch uses an installable client agent to monitor your devices, analyzing an
 
 Our agent runs as a service on your device, it's purpose is two-fold: it enforces any [Security Policy rules](#security-policies) that you've defined in the web application, and it sends regular status updates to the Overwatch servers for analysis.
 
-The stats sent out by the agent include plain keepalives, inbound and outbound data traffic, open connections and general details such as the device's IP. The privacy of our user's data is very important to us, as such all communication between the agent and the Overwach server is encrypted, and while we do analyze the behaviour of the device - such as the amount of traffic exchanged between the device and the network, the actual data is never sent down the wire. If you have any concerns about privacy, please [get in touch](get-in-touch) and we'll be happy to discuss our security measures in more detail.
+The stats sent out by the agent include plain keepalives, inbound and outbound data traffic, open connections and general details such as the device's IP. The privacy of our user's data is very important to us, as such all communication between the agent and the Overwach server is encrypted, and while we do analyze the behaviour of the device - such as the amount of traffic exchanged between the device and the network, the actual data is never sent down the wire. If you have any concerns about privacy, please [get in touch][get-in-touch] and we'll be happy to discuss our security measures in more detail.
 
 ### Adding a Device
 
@@ -86,7 +86,7 @@ Overwatch bootstrap script currently supports:
 
 * upstart-based Ubuntu Linux (by default, Ubuntu 14.10 and older)
 
-We have plans to support additional IoT focused platofrms and hardware and in the near future. In the meantime, if you'd like to run Overwatch in a platform that is not listed here [let us know](get-in-touch) and we'll look into adding it to our bootstrap process.
+We have plans to support additional IoT focused platofrms and hardware and in the near future. In the meantime, if you'd like to run Overwatch in a platform that is not listed here [let us know][get-in-touch] and we'll look into adding it to our bootstrap process.
 
 ## The Overwatch Web Interface
 
