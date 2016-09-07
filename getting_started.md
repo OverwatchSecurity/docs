@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Overwatch
+title: Getting Started
 ---
 
 Overwatch is a security platform designed to secure network connected devices. Its purpose is to help device owners, fleet operators, server admins, DevOps engineers, and more, track and monitor their devices and servers, preventing nefarious actors from unauthorized access and detecting irregluar behavior that might otherwise go unnoticed. You can think of Overwath as a edge-deployed firewall and security monitoring solution.
