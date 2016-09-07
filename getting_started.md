@@ -95,7 +95,7 @@ The Security Center provides a high-level overview of all your devices, and it's
 
 On it you'll see an aggregate view of all alerts, threats, connections and overall threat level of all the devices registered under your account.
 
-![security center screenshot](./img/security-center.png)
+![security center screenshot](/images/security-center.png)
 
 ### The Device List
 
@@ -105,7 +105,7 @@ You can see a list of all devices registered under your account along with a sum
 
 The device view contains an overview of your device activity, on it you'll see a summary of [alerts](#alerts), [threats](#threats), and [currently open connections](#connections). Here you'll also be able to perform security [actions](#actions) on the device.
 
-![device view screenshot](./img/device-view.png)
+![device view screenshot](/images/device-view.png)
 
 #### Actions
 
@@ -129,7 +129,7 @@ The Security Policies page for your device is accessible through the left sideba
 
 Threats are heavily influenced by the policies you configure for your device and we recommend going to the policy page of every new device to set up sensible policies depending on the device's intended regular use.
 
-![Creating a security policy](./img/policy-creation.gif)
+![Creating a security policy](/images/policy-creation.gif)
 
 ### Threats
 
@@ -139,7 +139,7 @@ Threats are triggered based both on the security policies for a device and on si
 
 If a high number of perceived threats has been detected on one of your devices, you might want to head over to the Threats page from the left sidebar menu in order to see a complete list.
 
-![Active Threats](./img/active-threats.png)
+![Active Threats](/images/active-threats.png)
 
 ### Connections
 
