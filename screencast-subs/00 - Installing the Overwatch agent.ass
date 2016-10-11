@@ -24,10 +24,10 @@ Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,Hello, in this screencast we will be walking through the command-line installation of the Overwatch agent on a Ubuntu machine.
-Dialogue: 0,0:00:05.00,0:00:10.00,Default,,0,0,0,,Start by navigating to app.overwatchsec.com/devices and opening an ssh session to our target devise.
-Dialogue: 0,0:00:12.00,0:00:18.00,Default,,0,0,0,,You can fetch our installation script from packages.overwatchsec.com/bootstrap.sh and run it, it might take a minute.
-Dialogue: 0,0:00:20.00,0:00:28.00,Default,,0,0,0,,When done, you'll need to register the device by running `sudo overwatchd --register` with an optional name.
+Dialogue: 0,0:00:05.00,0:00:10.00,Default,,0,0,0,,Start by navigating to app.overwatchsec.com/devices and then open an ssh session to our target device.
+Dialogue: 0,0:00:12.00,0:00:18.00,Default,,0,0,0,,Next, fetch the Overwatch device agent installation script from packages.overwatchsec.com/bootstrap.sh and run it on the target device. It may take a minute for the script to run.
+Dialogue: 0,0:00:20.00,0:00:28.00,Default,,0,0,0,,After running the bootstrap script, register the device by running `sudo overwatchd --register` with an optional name.
 Dialogue: 0,0:00:29.00,0:00:34.00,Default,,0,0,0,,The agent will require either your Overwatch credentials or an access token for unattended installations.
-Dialogue: 0,0:00:44.00,0:00:50.00,Default,,0,0,0,,After registering the device, your Overwatch devices page should update fairly quickly.
+Dialogue: 0,0:00:44.00,0:00:50.00,Default,,0,0,0,,After registering the device, the Overwatch devices page should update fairly quickly.
 Dialogue: 0,0:00:52.00,0:01:00.00,Default,,0,0,0,,Finally, after a few seconds the device will establish a secure connection to Overwatch and begin regular status reports.
 Dialogue: 0,0:01:01.00,0:01:10.00,Default,,0,0,0,,This concludes our tutorial, make sure to follow up by watching our other screencasts detailing the different features of the Overwatch platform.
